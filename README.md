@@ -1,33 +1,35 @@
-# Getting Started with Create React App
+# Client Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modified create-react-app to setup:
 
-## Available Scripts
+- [x] Context with Provider wrap happening in index.js
+- [x] BrowserRouter with wrap happening in index.js
+- [x] Basic routes and their components
+- [x] Light styling with CSS to be web/app responsive
 
-In the project directory, you can run:
+Main styling is done in App.css. NavBar and Footer have their own css files(./src/Components/Styling)
+This boilerplate is meant to get you straight into building your app without having you spend time setting up the basics.
+I plan on adding more to this boilerplate while sticking to the nature of a boilerplate.
 
-### `npm start`
+## Getting Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Follow the steps below to get started. 
+Replace *'the-name-of-YOUR-app'* with the name of your project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+$ git clone https://github.com/xeviert/client-boilerplate.git the-name-of-YOUR-app
+```
+```
+$ cd the-name-of-YOUR-app
+```
+```
+$ npm install
+```
+```
+$ npm start
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
+When you’re ready to deploy to production, running *npm run build* will create an optimized build of your app in the build folder.
+```
+$ npm run build
+```
