@@ -4,8 +4,8 @@ export default class About extends Component {
     render() {
         return (
             <div>
+                <div className='page-body'>           
                 <h2>About/Landing Page</h2>
-                <div id='about-body'>           
                     Body of the Landing Page
                 </div>
             </div>

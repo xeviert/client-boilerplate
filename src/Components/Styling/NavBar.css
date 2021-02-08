@@ -1,12 +1,32 @@
 #nav-bar {
     background-color: rgb(197, 197, 197);
-    padding: 1px 15px 33px 15px;
+    padding: 1px 10px 33px 15px;
 }
 
 #nav-links {
     float: right;
+    margin-bottom: 30px;
 }
 
 .link {
     margin: 0 15px 0 0;
+    font-size: 20px;
+}
+
+@media all and (min-width: 600px) {
+
+    #nav-bar {
+        padding: 20px 13% 60px;
+        
+    }
+
+    .link {
+        margin: 0 22px 0 0;
+        font-size: 30px;
+    }
+
+    #container-inside-nav {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
