@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+// import AppContext from '../AppContext'
 import './Styling/NavBar.css';
 
 export default class NavBar extends Component {
+    // static contextType = AppContext;
+
     render() {
         return (
             <nav id='nav-bar'>

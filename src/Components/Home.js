@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
+// import AppContext from '../AppContext'
 
 
 export default class Home extends Component {
+    // static contextType = AppContext;
+
     render() {
         return (
             <div>
