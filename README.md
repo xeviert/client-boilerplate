@@ -13,7 +13,7 @@ I plan on adding more to this boilerplate while sticking to the nature of a boil
 
 ## Desktop and Mobile View
 <img src="public\desktop-view.png" />
-<img src="public\mobile-view.png">
+<img src="public\mobile-view.png" width="396" height="700" />
 
 ## Getting Setup
 
