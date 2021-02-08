@@ -1,4 +1,4 @@
-# Client Boilerplate
+# Client Boilerplate With React
 
 Modified create-react-app to setup:
 
@@ -10,6 +10,10 @@ Modified create-react-app to setup:
 Main styling is done in App.css. NavBar and Footer have their own css files(./src/Components/Styling)
 This boilerplate is meant to get you straight into building your app without having you spend time setting up the basics.
 I plan on adding more to this boilerplate while sticking to the nature of a boilerplate.
+
+## Desktop and Mobile View
+<img src="public\desktop-view.png" />
+<img src="public\mobile-view.png">
 
 ## Getting Setup
 
