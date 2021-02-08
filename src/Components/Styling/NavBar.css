@@ -1,0 +1,12 @@
+#nav-bar {
+    background-color: rgb(197, 197, 197);
+    padding: 1px 15px 33px 15px;
+}
+
+#nav-links {
+    float: right;
+}
+
+.link {
+    margin: 0 15px 0 0;
+}

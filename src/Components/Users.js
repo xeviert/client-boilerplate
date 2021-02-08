@@ -4,7 +4,10 @@ export default class Users extends Component {
     render() {
         return (
             <div>
-                The Users Page
+                <h2>Users</h2>
+                <div id='users-body'>
+                    Body of Users Page
+                </div>
             </div>
         )
     }
