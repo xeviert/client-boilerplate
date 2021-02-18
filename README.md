@@ -26,6 +26,10 @@ $ git clone https://github.com/xeviert/client-boilerplate.git the-name-of-YOUR-a
 ```
 $ cd the-name-of-YOUR-app
 ```
+!!!IMPORTANT!!!
+```
+rm -rf .git
+```
 ```
 $ npm install
 ```
